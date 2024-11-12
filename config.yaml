@@ -1,0 +1,8 @@
+host: "your.rabbitmq.host"
+port: 5671 # SSL default port is 5672
+virtual_host: "your_virtual_host"
+exchange: "your_exchange"
+queue: "your_queue"
+ca: "your/path/to/ca"
+crt: "your/path/to/crt"
+key: "your/path/to/key"
