@@ -10,7 +10,6 @@ def hello_world():  # put application's code here
 def form():
     if request.method == 'POST':
         name = request.form['name']
-        return f'name is {name}'
 
 
 if __name__ == '__main__':
